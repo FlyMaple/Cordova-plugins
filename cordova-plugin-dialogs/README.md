@@ -1,3 +1,11 @@
+``` HTML
+<div class="dialogs">
+    <button id="dialog-alert">Alert</button>
+    <button id="dialog-confirm">Confirm</button>
+    <button id="dialog-prompt">Prompt</button>
+    <button id="dialog-beep">Beep</button>
+</div>
+```
 ``` JS
 function DialogAlert() {
     navigator.notification.alert(
